@@ -18,7 +18,7 @@ Message: ${message}`,
 
     await Email.send(
       from,
-      'Your support request from Mickey Fitness',
+      'Your support request from Cash Homes Today',
       'Thank you for reaching out. We will make sure to respond within 1 business day. If you have anything further to add please feel free to respond to this email.',
       process.env.EMAIL_SUPPORT_EMAIL,
       process.env.EMAIL_SUPPORT_PASSWORD

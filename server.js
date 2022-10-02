@@ -15,7 +15,7 @@ const application = {
 
 const origin =
   process.env.NODE_ENV === 'production'
-    ? 'https://www.mickeyfitness.com'
+    ? 'https://www.cashhomestoday.com'
     : 'http://localhost:3000'
 
 app.use(

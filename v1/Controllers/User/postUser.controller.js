@@ -215,7 +215,7 @@ module.exports = {
 
     const response = await Email.send(
       email,
-      'Password Reset Link for Mickey Fitness',
+      'Password Reset Link for Cash Homes Today',
       link,
       process.env.EMAIL_NOREPLY_EMAIL,
       process.env.EMAIL_NOREPLY_PASSWORD
