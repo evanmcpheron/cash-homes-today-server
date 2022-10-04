@@ -329,7 +329,7 @@ module.exports = {
       access_token: userJwt,
     }
 
-    res.redirect(`${proxy()}/sign-in`)
+    res.redirect(`${proxy()}`)
   },
   googleCallback: async (req, res) => {
     const { email, given_name, family_name, name } = req.user._json
@@ -393,7 +393,7 @@ module.exports = {
       access_token: userJwt,
     }
 
-    res.redirect(`${proxy()}/sign-in`)
+    res.redirect(`${proxy()}`)
   },
   twitterCallback: async (req, res) => {
     const { email, name } = req.user._json
@@ -458,6 +458,6 @@ module.exports = {
       access_token: userJwt,
     }
 
-    res.redirect(`${proxy()}/sign-in`)
+    res.redirect(`${proxy()}`)
   },
 }
