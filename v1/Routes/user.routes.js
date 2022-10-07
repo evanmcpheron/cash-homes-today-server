@@ -99,7 +99,7 @@ module.exports = () => {
   router.get(
     '/facebook/callback',
     passport.authenticate('facebook', {
-      failureRedirect: `${proxy()}/sign-in`,
+      failureRedirect: `${proxy()}/future-flipper`,
     }),
     (req, res) => userRoute.post.facebookCallback(req, res)
   )
@@ -114,7 +114,7 @@ module.exports = () => {
   router.get(
     '/google/callback',
     passport.authenticate('google', {
-      failureRedirect: `${proxy()}/sign-in`,
+      failureRedirect: `${proxy()}/future-flipper`,
     }),
     (req, res) => userRoute.post.googleCallback(req, res)
   )
@@ -126,7 +126,7 @@ module.exports = () => {
   router.get(
     '/twitter/callback',
     passport.authenticate('twitter', {
-      failureRedirect: `${proxy()}/sign-in`,
+      failureRedirect: `${proxy()}/future-flipper`,
     }),
     (req, res) => userRoute.post.twitterCallback(req, res)
   )

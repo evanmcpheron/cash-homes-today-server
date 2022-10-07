@@ -13,6 +13,7 @@ module.exports = {
     USER_ROOT: '/auth',
     PROFILE_ROOT: '/profile',
     GLOBAL_ROOT: '/global',
+    SCRUMBOARD_ROOT: '/scrumboard'
   },
   paginations: {
     DEFAULT_LIMIT: 60,
